@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Clock Works</title>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 id="clock-heading"> &nbsp; &nbsp; Timer</h1>
+            </div>            
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class="col-lg-6">
+                <section id="controls">
+                    <div class="input-group">
+                        <label form="minutes-label">Minutes : </label> <br>
+                        <input type="number" placeholder="0" id="minutes-input" max="60" min="0" step="2" >
+                    </div>
+                    <div class="input-group">
+                        <label form="minutes-label">Seconds : </label> <br>
+                        <input type="number" placeholder ="0" id="seconds-input" max="59" min="0" step="5">
+                    </div>
+
+                    <br>
+                    
+                    <button id="start-button" class="btn" type="button" onclick="startTimer();">Start</button> &nbsp;
+                    <button id="stop-button" class="btn" type="button" onclick="stopTimer();" disabled>Stop</button> &nbsp;
+                    <button id="pause-button" class="btn" type="button" onclick="pauseTimer();" disabled>Pause</button> &nbsp;
+        
+                </section>
+            </div>            
+
+            <div class="col-lg-6" id="clock">
+                <h2><span id="minutes">0</span><span id="colon">:</span><span id="seconds">00</span></h2>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

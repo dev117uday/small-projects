@@ -1,0 +1,46 @@
+#minutes {
+    font-size: 150px;
+    font-weight: 400;
+}
+
+#seconds {
+  font-size: 150px;
+  font-weight: 400;
+}
+
+#colon {
+  font-size: 150px;
+  font-weight: 400;
+}
+
+body {
+  padding-left: 3.5cm;
+  padding-top: 3.5cm;
+}
+
+input {
+  width : 425%;
+  font-size: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+  padding-left: 6px;
+  font-weight: 200;
+  outline: none;
+}
+
+.btn {
+  width:100px;
+  font-size: larger;
+  background-color : #282828;
+  color : white;
+}
+
+.btn:hover {
+  background-color: #606060; /* Green */
+  color: white;
+}
+
+#clock-heading {
+  font-size: 70px;
+}
+

@@ -1,0 +1,359 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--web-view-ids: custom___1;
+}
+#custom___1 * {
+	margin: 0;
+	padding: 0;
+}
+#custom___1 {
+	position: absolute;
+	box-sizing: border-box;
+	transform: translateX(-50%);
+	left: 50%;
+	background: #E5E5E5;
+	width: 1080px;
+	height: 2340px;
+	background-color: rgba(212,213,214,1);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	--web-view-name: custom – 1;
+	--web-view-id: custom___1;
+	--web-scale-to-fit: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_1 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1080px;
+	height: 2092px;
+	left: 0px;
+	top: 124px;
+}
+#Hey_there__it_s_me {
+	position: absolute;
+	left: 343px;
+	top: 193px;
+	overflow: hidden;
+	width: 428px;
+	height: 83px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(112,112,112,1);
+}
+#Uday_Yadav {
+	position: absolute;
+	left: 271px;
+	top: 251px;
+	overflow: hidden;
+	width: 573px;
+	height: 111px;
+	text-align: center;
+	font-family: Microsoft New Tai Lue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	color: rgba(112,112,112,1);
+}
+#ds_c_c_c_c_c_c_c_c {
+	position: absolute;
+	left: 187px;
+	top: 1098px;
+	overflow: hidden;
+	width: 752px;
+	height: 509px;
+	text-align: center;
+	font-family: Microsoft New Tai Lue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(112,112,112,1);
+}
+#Facebook {
+	position: absolute;
+	width: 109.002px;
+	height: 109.002px;
+	left: 185px;
+	top: 1738px;
+	overflow: visible;
+}
+#Oval {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(61,90,150,1);
+}
+.Oval {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.001px;
+	left: 0px;
+	top: 0px;
+}
+#Facebook_A0_Path_1 {
+	fill: rgba(255,255,255,1);
+}
+.Facebook_A0_Path_1 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 32.141px;
+	left: 43.321px;
+	width: 22.359px;
+	height: 44.719px;
+}
+#Twitter {
+	position: absolute;
+	width: 109.002px;
+	height: 109.002px;
+	left: 328.9px;
+	top: 1738px;
+	overflow: visible;
+}
+#Oval_A0_Ellipse_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(42,163,239,1);
+}
+.Oval_A0_Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.001px;
+	left: 0px;
+	top: 0px;
+}
+#Twitter_A0_Path_2 {
+	fill: rgba(255,255,255,1);
+}
+.Twitter_A0_Path_2 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 36.334px;
+	left: 32.141px;
+	width: 44.719px;
+	height: 36.334px;
+}
+#Youtube {
+	position: absolute;
+	width: 109.002px;
+	height: 109.002px;
+	left: 472.799px;
+	top: 1738px;
+	overflow: visible;
+}
+#Oval_A0_Ellipse_3 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(245,41,41,1);
+}
+.Oval_A0_Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.001px;
+	left: 0px;
+	top: 0px;
+}
+#Youtube_A0_BooleanGroup_1 {
+	fill: rgba(255,255,255,1);
+}
+.Youtube_A0_BooleanGroup_1 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 34.936px;
+	left: 29.347px;
+	width: 50.308px;
+	height: 39.129px;
+}
+#Instagram {
+	position: absolute;
+	width: 109.002px;
+	height: 109.002px;
+	left: 616.699px;
+	top: 1738px;
+	overflow: visible;
+}
+#Oval_A0_Ellipse_4 {
+	filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.102));
+	fill: url(#LinearGradientFill1);
+}
+.Oval_A0_Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 133.002px;
+	height: 133.001px;
+	left: 0px;
+	top: 0px;
+}
+#Instagram_A0_BooleanGroup_2 {
+	fill: rgba(255,255,255,1);
+}
+.Instagram_A0_BooleanGroup_2 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 30.744px;
+	left: 30.744px;
+	width: 47.514px;
+	height: 47.514px;
+}
+#Snapchat {
+	position: absolute;
+	width: 109.001px;
+	height: 109.002px;
+	left: 404.799px;
+	top: 1870.085px;
+	overflow: visible;
+}
+#Oval_A0_Ellipse_5 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(255,252,0,1);
+}
+.Oval_A0_Ellipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.001px;
+	left: 0px;
+	top: 0px;
+}
+#Snapchat_A0_Group_6 {
+	position: absolute;
+	width: 49.555px;
+	height: 47.847px;
+	left: 29.347px;
+	top: 30.793px;
+	overflow: visible;
+}
+#Shape {
+	fill: rgba(0,0,0,1);
+}
+.Shape {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 49.555px;
+	height: 47.847px;
+}
+#Path {
+	fill: rgba(255,255,255,1);
+}
+.Path {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 1.709px;
+	left: 1.979px;
+	width: 45.68px;
+	height: 44.429px;
+}
+#Oval_A0_Ellipse_6 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(0,122,183,1);
+}
+.Oval_A0_Ellipse_6 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.001px;
+	left: 556.9px;
+	top: 1870.028px;
+}
+#Linkedin {
+	fill: rgba(255,255,255,1);
+}
+.Linkedin {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 1904.567px;
+	left: 591.836px;
+	width: 39.129px;
+	height: 39.129px;
+}
+#photo_2019_07_29_15_26_33_A0_R {
+	fill: url(#photo_2019_07_29_15_26_33_A0_R_A0_Rectangle_3_pattern);
+}
+.photo_2019_07_29_15_26_33_A0_R {
+	position: absolute;
+	overflow: visible;
+	width: 608px;
+	height: 732px;
+	left: 253px;
+	top: 349px;
+}
+#Rectangle_2 {
+	fill: rgba(99,103,216,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 732px;
+	height: 80px;
+	left: 206px;
+	top: 1607px;
+}
+#To_my_blog {
+	position: absolute;
+	left: 217px;
+	top: 1624px;
+	overflow: hidden;
+	width: 681px;
+	height: 50px;
+	text-align: center;
+	font-family: Microsoft New Tai Lue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#a_a_a_ {
+	position: absolute;
+	left: 126px;
+	top: 2011px;
+	overflow: hidden;
+	width: 830px;
+	height: 172px;
+	text-align: center;
+	font-family: Microsoft New Tai Lue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(219,219,219,1);
+}
+#Oval_A0_Ellipse_7 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(47,117,236,1);
+}
+.Oval_A0_Ellipse_7 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.001px;
+	left: 760.698px;
+	top: 1738.028px;
+}
+#Mail {
+	fill: rgba(255,255,255,1);
+}
+.Mail {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 1777.157px;
+	left: 792.84px;
+	width: 44.718px;
+	height: 30.745px;
+}

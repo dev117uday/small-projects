@@ -1,0 +1,364 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--web-view-ids: Web_1920___1;
+}
+#Web_1920___1 * {
+	margin: 0;
+	padding: 0;
+}
+#Web_1920___1 {
+	position: absolute;
+	box-sizing: border-box;
+	transform: translateX(-50%);
+	left: 50%;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(212,213,214,1);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920___1;
+	--web-scale-to-fit: true;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_1 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1532px;
+	height: 751px;
+	left: 194px;
+	top: 165px;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 573px;
+	left: 274px;
+	top: 259px;
+}
+#photo_2019_07_29_15_26_33 {
+	fill: url(#photo_2019_07_29_15_26_33_A0_Rectangle_4_pattern);
+}
+.photo_2019_07_29_15_26_33 {
+	position: absolute;
+	overflow: visible;
+	width: 493px;
+	height: 593.5px;
+	left: 263px;
+	top: 239px;
+}
+#Uday_Yadav {
+	position: absolute;
+	left: 900px;
+	top: 361px;
+	overflow: hidden;
+	width: 682px;
+	height: 185px;
+	text-align: center;
+	font-family: Microsoft PhagsPa;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 120px;
+	color: rgba(112,112,112,1);
+}
+#Hey_there__it_s_me_ {
+	position: absolute;
+	left: 1031px;
+	top: 354px;
+	overflow: hidden;
+	width: 449px;
+	height: 55px;
+	text-align: center;
+	font-family: Microsoft PhagsPa;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(112,112,112,1);
+}
+#This_is_sample_text_to_be_hone {
+	position: absolute;
+	left: 834px;
+	top: 525px;
+	overflow: hidden;
+	width: 826px;
+	height: 169px;
+	text-align: center;
+	font-family: Microsoft PhagsPa;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#Facebook {
+	position: absolute;
+	width: 109.002px;
+	height: 109.002px;
+	left: 812px;
+	top: 694px;
+	overflow: visible;
+}
+#Oval {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(61,90,150,1);
+}
+.Oval {
+	position: absolute;
+	overflow: visible;
+	width: 127.002px;
+	height: 127.002px;
+	left: 0px;
+	top: 0px;
+}
+#Facebook_A0_Path_1 {
+	fill: rgba(255,255,255,1);
+}
+.Facebook_A0_Path_1 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 32.141px;
+	left: 43.321px;
+	width: 22.359px;
+	height: 44.719px;
+}
+#Twitter {
+	position: absolute;
+	width: 109.002px;
+	height: 109.002px;
+	left: 931.9px;
+	top: 694px;
+	overflow: visible;
+}
+#Oval_A0_Ellipse_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(42,163,239,1);
+}
+.Oval_A0_Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.002px;
+	left: 0px;
+	top: 0px;
+}
+#Twitter_A0_Path_2 {
+	fill: rgba(255,255,255,1);
+}
+.Twitter_A0_Path_2 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 36.334px;
+	left: 32.141px;
+	width: 44.719px;
+	height: 36.334px;
+}
+#Instagram {
+	position: absolute;
+	width: 109.002px;
+	height: 109.002px;
+	left: 1069.699px;
+	top: 694px;
+	overflow: visible;
+}
+#Oval_A0_Ellipse_3 {
+	filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.102));
+	fill: url(#LinearGradientFill1);
+}
+.Oval_A0_Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 133.001px;
+	height: 133.002px;
+	left: 0px;
+	top: 0px;
+}
+#Instagram_A0_BooleanGroup_1 {
+	fill: rgba(255,255,255,1);
+}
+.Instagram_A0_BooleanGroup_1 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 30.744px;
+	left: 30.744px;
+	width: 47.514px;
+	height: 47.514px;
+}
+#Snapchat {
+	position: absolute;
+	width: 109.001px;
+	height: 109.002px;
+	left: 1321.799px;
+	top: 694.085px;
+	overflow: visible;
+}
+#Oval_A0_Ellipse_4 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(255,252,0,1);
+}
+.Oval_A0_Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.002px;
+	left: 0px;
+	top: 0px;
+}
+#Snapchat_A0_Group_5 {
+	position: absolute;
+	width: 49.555px;
+	height: 47.847px;
+	left: 29.347px;
+	top: 30.793px;
+	overflow: visible;
+}
+#Shape {
+	fill: rgba(0,0,0,1);
+}
+.Shape {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 49.555px;
+	height: 47.847px;
+}
+#Path {
+	fill: rgba(255,255,255,1);
+}
+.Path {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 1.709px;
+	left: 1.979px;
+	width: 45.68px;
+	height: 44.429px;
+}
+#Youtube {
+	position: absolute;
+	width: 109.002px;
+	height: 109.002px;
+	left: 1450.799px;
+	top: 694px;
+	overflow: visible;
+}
+#Oval_A0_Ellipse_5 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(245,41,41,1);
+}
+.Oval_A0_Ellipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.002px;
+	left: 0px;
+	top: 0px;
+}
+#Youtube_A0_BooleanGroup_2 {
+	fill: rgba(255,255,255,1);
+}
+.Youtube_A0_BooleanGroup_2 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 34.936px;
+	left: 29.347px;
+	width: 50.308px;
+	height: 39.129px;
+}
+#Oval_A0_Ellipse_6 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(0,122,183,1);
+}
+.Oval_A0_Ellipse_6 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.002px;
+	left: 1588.9px;
+	top: 694.028px;
+}
+#Linkedin {
+	fill: rgba(255,255,255,1);
+}
+.Linkedin {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 725.567px;
+	left: 1623.836px;
+	width: 39.129px;
+	height: 39.129px;
+}
+#Oval_A0_Ellipse_7 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: rgba(47,117,236,1);
+}
+.Oval_A0_Ellipse_7 {
+	position: absolute;
+	overflow: visible;
+	width: 127.001px;
+	height: 127.001px;
+	left: 1198.698px;
+	top: 696.028px;
+}
+#Mail {
+	fill: rgba(255,255,255,1);
+}
+.Mail {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 733.157px;
+	left: 1230.84px;
+	width: 44.718px;
+	height: 30.745px;
+}
+#Rectangle_4 {
+	fill: rgba(173,68,210,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 489px;
+	height: 68px;
+	left: 1016px;
+	top: 821px;
+}
+#To_my_blog {
+	position: absolute;
+	left: 1049px;
+	top: 833px;
+	overflow: hidden;
+	width: 425px;
+	height: 45px;
+	text-align: center;
+	font-family: Microsoft PhagsPa;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
