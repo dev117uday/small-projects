@@ -1,12 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAwsyb6zNI5AWhF7-X99r_4UVoE8H6kgkE",
-    authDomain: "fir-try-9f586.firebaseapp.com",
-    databaseURL: "https://fir-try-9f586.firebaseio.com",
-    projectId: "fir-try-9f586",
-    storageBucket: "fir-try-9f586.appspot.com",
-    messagingSenderId: "348067655888",
-    appId: "1:348067655888:web:aaf0ddf6f754e3709a6ed5",
-    measurementId: "G-0RR0WNZPF3"
+    // add firebase variables here
 };
 
 firebase.initializeApp(firebaseConfig);
