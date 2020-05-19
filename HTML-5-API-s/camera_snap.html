@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camera API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <video id="player" autoplay></video> <br />
+            <button id="capture" class="btn btn-danger">Capture</button>
+            <br />
+            <canvas id="canvas" width="320" height="240"></canvas>
+        </div>
+    </div>
+
+    <script>
+        //Start
+        const supported = "mediaDevices" in navigator;
+        const player = document.getElementById("player");
+        const captureButton = document.getElementById("capture");
+        const canvas = document.getElementById("canvas");
+        const context = canvas.getContext("2d");
+
+        const constraints = {
+            video: true,
+        };
+
+        captureButton.addEventListener("click", () => {
+            // Draw the video frame to the canvas.
+            context.drawImage(player, 0, 0, canvas.width, canvas.height);
+        });
+
+        // player.srcObject.getVideoTracks().forEach(track => track.stop());
+        // });
+
+        navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
+            player.srcObject = stream;
+        });
+
+        //End
+    </script>
+</body>
+
+</html>
