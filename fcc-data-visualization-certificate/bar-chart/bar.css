@@ -1,0 +1,54 @@
+body {
+	background-color: #f3f2f1;
+}
+
+#main-heading {
+	font-family: Roboto;
+	font-size: 35px;
+	color: #292827;
+	font-weight: 100;
+}
+
+svg {
+	display: block;
+	margin: auto;
+	border-radius: 15px;
+	background-color: #ffffff;
+	margin-top: -10px;
+	padding: 25px;
+}
+
+.bar {
+	fill: #124078;
+}
+
+.bar:hover {
+	fill: #4a78b0;
+}
+
+.axis {
+	font: 12px 'Roboto', serif;
+}
+
+.axis-label {
+	text-anchor: middle;
+	font: 16px 'Roboto', serif;
+}
+
+#title {
+	font: 35px 'Roboto' , serif;
+}
+
+div#tooltip {	
+    position: absolute;			
+    text-align: left;			
+    width: 120px;					
+    height: 30px;					
+    padding: 10px;				
+    font: 12px 'Roboto', serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+

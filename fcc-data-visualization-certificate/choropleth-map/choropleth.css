@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', serif;
+}
+
+#main-heading {
+	font-family: Roboto;
+	font-size: 35px;
+	color: #292827;
+	font-weight: 300;
+}
+
+#title {
+  margin-top: 3px;
+}
+
+#description {
+  margin-top: -14px;
+}
+
+#visualization {
+	display: block;
+	margin: auto;
+	border-radius: 15px;
+	background-color: #f3f2f1;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+div#tooltip {	
+    position: absolute;			
+    text-align: left;			
+    width: 100px;					
+    height: 30px;					
+    padding: 15px;				
+    font: 12px 'Bree Serif', serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.states {
+	fill: none;
+	stroke: white;
+}
