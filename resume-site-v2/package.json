@@ -1,0 +1,12 @@
+{
+  "name": "resume-site",
+  "version": "1.0.0",
+  "description": "Resume site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"firebase deploy"
+  },
+  "author": "Uday Yadav",
+  "license": "ISC"
+}
