@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./style.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<title>Simple Chat App</title>
+</head>
+<body>
+	
+	<div id="app">
+		<center>
+			<br><br>
+			<div class="container">
+				<div class="row">
+					<textarea v-model="textarea" @keyup="foo" name="text" id="text-area"></textarea>
+				</div>
+				<br> <br>
+				<div class="row">
+					<div id="box-response" class="col-xs-6"> &nbsp; {{textarea}}</div>
+					<div id="box-response" class="col-xs-6"> &nbsp; {{ textarea2 }}</div>
+				</div>
+			</div>
+		</center>
+	</div>
+
+	<script src="./app.js"></script>
+	
+</body>
+</html>
