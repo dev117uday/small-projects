@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<script type="module">
+		import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+		const el = document.createElement('pwa-update');
+		document.body.appendChild(el);
+	</script>
+	<script src="./pwabuilder-sw.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="./bootstrap/css.css">
+	<script src="./bootstrap/jquery.js"></script>
+	<script src="./bootstrap/bootstrap.js"></script>
+	<script src="./vuecdn.js"></script>
+	<link rel="shortcut icon" href="./images/icons/favicon.png" type="image/x-icon">
+	<title>Resume Site</title>
+	<script>
+		window.replainSettings = { id: '8d618dfd-492b-4e43-90e4-c0aed1dffd8d' };
+		(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+		var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+		})('https://widget.replain.cc/dist/client.js');
+		</script>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+
+	<noscript>
+		<strong>Sorry, I am using vuejs to dynamically change content of site. Please enable JavaScript</strong>
+	  </noscript>
+
+	<div id="pad"></div>
+
+	<div id="front-page">
+		<div id="front">
+			<center>
+				<a href="./images/linkedin.jpg" ><img class="non" id="profile-image" src="./images/me.jpg" alt="Uday Yadav"></a>
+				<h1 id="name">{{name}}</h1>
+				<p class="non" id="short-dis-a">{{level}} | {{position}}</p>
+				<p class="non" id="short-dis-b">{{aspiration}}</p>
+			</center>
+		</div>
+		<br>
+		<div id="second">
+			<center>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4 text-right">
+							<a target="_blank" v-bind:href = "github" ><img src="./images/icons/github.svg" alt="github" class="logo" > </a>
+						</div>
+						<div class="col-xs-4">
+							<a target="_blank" v-bind:href = "linkedin" ><img src="./images/icons/linkedin.svg" alt="linkedin" class="logo"> </a>
+						</div>
+						<div class="col-xs-4 text-left">
+							<a target="_blank" :href="`mailto:${outlook}`" ><img src="./images/icons/outlook.png" alt="outlook" class="logo"> </a>
+						</div>
+					</div>
+					<br> <br>
+					<div class="row">
+						<div class="col-xs-4 text-right">
+							<a target="_blank" v-bind:href = "instagram" ><img src="./images/icons/instagram.png" alt="instagram" class="logo"> </a>
+						</div>
+						<div class="col-xs-4">
+							<a target="_blank" v-bind:href = "twitter" ><img src="./images/icons/twitter.png" alt="twitter" class="logo"> </a>
+						</div>
+						<div class="col-xs-4 text-left">
+							<a target="_blank" v-bind:href = "medium" ><img src="./images/icons/medium.png" alt="medium" class="logo"> </a>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<center>
+							<a target="_blank" v-bind:href="resume">
+								<button class="btn" id="resume-button"> Resume </button>
+							</a>
+						</center>
+					</div>
+				</div>
+			</center>
+		</div>
+	</div>
+
+	<br> <br>
+
+	<div id="second-page" class="light-grey">
+		<div id="third">
+			<br> <br>
+			<h1 class="non" id="about-me">
+				About Myself
+			</h1>
+			<br> <br>
+			<div class="container" >
+				<div id="intro">
+					<p>
+						{{first_para}}
+					</p>
+					<p class="non">
+						{{second_para}}
+					</p>
+				</div>
+				<br>
+				<center >
+					<div class="row" >
+						<div class="col-xs-6" style="background-color: #11100f;">
+							<img src="./images/icons/01.svg" alt="binary" class="symbols">
+							<p class="short-dis-c" class="non">{{A}}</p>
+						</div>
+						<div class="col-xs-6" style="background-color: white;">
+							<img src="./images/icons/golangT.png" alt="golang" class="symbols">
+							<p class="short-dis-d" class="non">{{C}}</p>
+						</div>
+						<div class="col-xs-6" style="background-color: white;">
+							<img src="./images/icons/cpp.png" alt="cpp" class="symbols">
+							<p class="short-dis-d" class="non">{{D}}</p>
+						</div>
+						<div class="col-xs-6" style="background-color: #11100f;">
+							<img src="./images/icons/web symbol.svg" alt="web" class="symbols">
+							<p class="short-dis-c" class="non">{{B}}</p>
+						</div>
+					</div>
+				</center>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<br> <br>
+
+	<div id="third-page">
+		<center>
+			<h1 class="section-header" class="non">Education</h1>
+			<br> <br>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6" >
+						<p id="high-school" class="non">High School</p>
+						<img class="ins" src="./images/icons/ryan.jpg" alt="Ryan International School">
+						<p class="non">10<sup>th</sup> Grade and 12<sup>th</sup> Grade</p>
+						<p>Ryan International School, Mayur Vihar</p>
+					</div>
+					<div class="col-sm-6" >
+						<p id="high-school" class="non">Graduation</p>
+						<br> <br> <br>
+						<img id="ggsipu" src="./images/icons/ggsipu.png" alt="Ryan International School">
+						<br> <br>
+						<p class="non">B.tech Computer Science Engineer</p>
+						<p>GGSIPU : ADGITM</p>
+					</div>
+				</div>
+			</div>
+		</center>
+	</div>
+
+	<br> <br>
+
+	<div id="fourth-page" class="light-grey">
+		<center>
+			<br>
+			<h1 class="section-header non">Experience</h1>
+			<br>
+			<br>
+			<h3>Yet to experience the industry</h3>
+			<br> <br>
+		</center>
+	</div>
+
+	<div id="fifth-page">
+		<div id="fifth">
+			<center>
+				<br>
+				<h1 class="section-header non" style="font-size: 40px;"> Certifications </h1>
+				<br>
+
+				<div id="fcc" class="row">
+					<br> <br>
+					<div class="col-sm-6">
+						<img src="./images/icons/fcc.jpeg" class="cert-logo">
+						<br>
+						<h2 id="fcc-a">FreeCodeCamp</h2>
+						<br>
+					</div>
+					<div class="col-sm-6">
+						<br> <br> <br>
+						<ul id="fcc-list" class="text-left">
+							<li><a target="_blank" style="color: white;" v-bind:href="rwd" >Responsive Web Design</a></li>
+							<li><a target="_blank" style="color: white;" v-bind:href="jsdsa" >JavaScript Algorithms and Data Structures</a></li>
+							<li><a target="_blank" style="color: white;" v-bind:href="am" >APIs and Microservices</a></li>
+							<li><a target="_blank" style="color: white;" v-bind:href="datav" >Data Visualization</a></li>
+						</ul>
+					</div>
+					<br> <br>
+					<p>&nbsp;</p>
+				</div>
+
+				<div id="cousera" class="row">
+					<br> <br>
+					<div class="col-sm-6">
+						<img src="./images/icons/coursera.jpeg" class="cert-logo">
+						<br>
+						<h2 id="c-a">Coursera</h2>
+						<br>
+					</div>
+					<div class="col-sm-6">
+						<br> <br>
+						<ul id="cousera-list" class="text-left">
+							<li><a target="_blank" style="font-size: 20px;" v-bind:href="git" >Introduction to Git and GitHub</a></li>
+							<li><a target="_blank" style="font-size: 20px;" v-bind:href="gcpcore" >Google Cloud Platform Fundamentals: Core Infrastructure</a></li>
+							<li><a target="_blank" style="font-size: 20px;" v-bind:href="oopdsc1" >Object-Oriented Data Structures in C++</a></li>
+							<li><a target="_blank" style="font-size: 20px;" v-bind:href="gml" >How Google does Machine Learning</a></li>
+						</ul>
+					</div>
+					<br> <br>
+					<p>&nbsp;</p>
+				</div>
+
+				<br>
+
+				<div id="mis">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-3">
+								<img class="mis" src="./images/icons/julia.png" alt="julia">
+							</div>
+							<div class="col-sm-3">
+								<br>
+								<h4><a target="_blank" v-bind:href="introjulia">Introduction to Julia Programming Language</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br> <br>
+			</center>
+		</div>
+	</div>
+
+	<div id="sixth-page">
+		<div class="light-grey">
+			<center>
+				<br>
+				<h1 class="section-header non">Skills</h1>
+				<div class="row">
+					<div class="col-xs-6">
+						<h3>Programming languages</h3>
+						<br>
+						<div class="col-sm-3">
+							<img src="./images/icons/golangT.png" alt="go" class="prog-icon">
+							<h5>Golang</h5>
+						</div>
+						<div class="col-sm-3">
+							<img src="./images/icons/cpp.png" alt="cpp" class="prog-icon">
+							<h5>C++</h5>
+						</div>
+						<div class="col-sm-3">
+							<img src="./images/icons/js.png" alt="js" class="prog-icon">
+							<h5>JavaScript</h5>
+						</div>
+						<div class="col-sm-3">
+							<img src="./images/icons/python.png" alt="python" class="prog-icon">
+							<h5>Python</h5>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<center>
+							<h3>Web Technologies</h3>
+							<br>
+
+							<div class="col-sm-3">
+								<img src="./images/icons/vuejs.png" alt="vuejs" class="prog-icon">
+								<h5>Vuejs</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/nodejs.png" alt="nodejs" class="prog-icon">
+								<h5>Node.js</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/firebase.png" alt="firebase" class="prog-icon">
+								<h5>Firebase</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/heroku.png" alt="Heroku" class="prog-icon">
+								<h5>Heroku</h5>
+							</div>
+						</center>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<h3>Scripting & Styling</h3>
+						<br>
+						<center>
+							<div class="col-sm-3">
+								<img src="./images/icons/html5.png" alt="Rust" class="prog-icon">
+								<h5>HTML5</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/css.png" alt="css" style="width: 40px; height: 50px;">
+								<h5>CSS</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/bootstrap.png" alt="Rust" class="prog-icon">
+								<h5>Bootstrap</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/markdown.png" alt="mardown"  style="width: 50px; height: 50px;">
+								<h5>Markdown</h5>
+							</div>
+						</center>
+					</div>
+					<div class="col-xs-6">
+						<h3>Tools & Services &nbsp;</h3>
+						<br>
+						<center>
+							<div class="col-sm-3">
+								<img src="./images/icons/git.png" alt="git" class="prog-icon">
+								<h5>Git</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/github.svg" alt="github" style="width: 40px; height: 50px;">
+								<h5>Github</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/linux.png" alt="linux" class="prog-icon">
+								<h5>Linux</h5>
+							</div>
+							<div class="col-sm-3">
+								<img src="./images/icons/postman.png" alt="mardown"  class="prog-icon">
+								<h5>Postman</h5>
+							</div>
+						</center>
+					</div>
+				</div>
+				<br> <br>
+			</center>
+		</div>
+	</div>
+
+	<div id="seventh-page">
+		<center>
+			<br>
+			<h1 class="section-header non">Achievement</h1>
+			<br>
+			<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-sm-4">
+							<img src="./images/icons/eyantra1.png" alt="eyntra" class="ach">
+						</div>
+						<div class="col-sm-8 text-left">
+							<h3 class="ach-title">National Finalist Eyantra</h3>
+							<h5>2019-2020</h5>
+							<p>Hosted by IIT-Bombay, EYRC is a annual Robotics Competition. Reached Finals but event cancelled due to Covid-19</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br> <br>
+		</center>
+	</div>
+
+	<div id="eighth-page" class="light-grey">
+		<center>
+			<br>
+			<h1 class="non">Positions & Responsibility</h1>
+			<br>
+			<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-sm-4">
+							<img src="./images/icons/no circuit dark blue.png" alt="eyntra" class="ach">
+						</div>
+						<div class="col-sm-8 text-left">
+							<h3 class="ach-title">DataQuest - Tech Lead</h3>
+							<h5>2020 - current</h5>
+							<p>Responsibility to manage technical aspect of Data Quest, college’s biggest community of coders, Data science
+								and ML enthusiasts</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br> <br>
+		</center>
+	</div>
+
+	<div id="ninth-page" >
+		<center>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<br>
+						<h1 class="">Articles</h1>
+						<a target="_blank" href="https://sites.google.com/view/uday-yadav/articles?">
+							<button class="btn" id="article-button">See all articles</button>
+						</a>
+					</div>
+
+					<div class="col-sm-4">
+						<br>
+						<h1 class="">Projects</h1>
+						<a target="_blank" href="https://sites.google.com/view/uday-yadav/projects">
+							<button class="btn btn-info" id="article-button">See all Projects</button>
+						</a>
+					</div>
+					<div class="col-sm-4">
+						<br>
+						<h1 class="">Notes</h1>
+						<a target="_blank" href="https://dev117uday.github.io/dev117uday/">
+							<button class="btn" id="article-button">See all notes</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+		</center>
+	</div>
+
+	<div id="footer">
+		<center>
+			<h5 id="footer-h">By : Uday Yadav using
+				<a target="_blank" href="https://vuejs.org/"> <img src="./images/icons/vuejs.png" style="height: 15px; width: 15px;"></a>
+			</h5>
+		</center>
+	</div>
+
+	<script src="./app.js"></script>
+
+</body>
+
+</html>

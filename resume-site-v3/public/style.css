@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+html,body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+#pad {
+	margin-top: 3vh;
+}
+
+#front-page {
+	width: 100vw;
+	height: 100vh;
+}
+
+.light-grey {
+	background-color: #f3f2f1;
+	width: 100vw;
+}
+
+#profile-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+
+#name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+}
+
+#short-dis-a {
+	margin-top: -10px;
+	font-size: 20px;
+}
+
+#short-dis-b {
+	margin-top: -10px;
+	font-size: 25px;
+}
+
+.short-dis-c {
+	font-family: 'Robota', sans-serif;
+	color: wheat;
+}
+.short-dis-d {
+	font-family: 'Robota', sans-serif;
+	color: black;
+}
+
+
+.logo {
+	width: 40px;
+	height: 40px;
+}
+
+
+#about-me {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	padding-left: 5vw;
+}
+
+#intro {
+	width: 80vw;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+}
+
+.symbols {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 130px;
+	height: 130px;
+}
+
+.symbols-para {
+	color: antiquewhite;
+	margin-bottom: 10px;
+}
+
+.non {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+.section-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+}
+
+#high-school {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+#ggsipu {
+	width: 240px;
+	height: 200px;
+}
+
+#resume-button {
+	border-radius: 10px;
+}
+
+.cert-logo {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+#fcc {
+	background: #0a0a23;
+	padding-bottom: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+#fcc-a {
+	font-family: 'Roboto Mono', monospace;
+	color: azure;
+}
+
+#fcc-list {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+
+#coursera {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#c-a {
+	font-family: 'Roboto',sans-serif;
+	color: cornflowerblue;
+}
+#coursera-list {
+	color: darkslategrey;
+	font-family: 'Roboto',sans-serif;
+}
+
+.mis {
+	width: 120px;
+	height: 100px;
+}
+
+.prog-icon {
+	width: 50px;
+	height: 50px;
+}
+
+.ach {
+	width: 140px;
+	height: 140px;
+}
+
+.ach-title {
+	font-family: 'Roboto', sans-serif;
+}
+
+#article-button {
+	width: 200px;
+	height: 55px;
+	border-radius: 10px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 20px;
+}
+
+#footer {
+	background: black;
+	width: 100vw;
+	height: 40px;
+	padding: 0px;
+}
+
+#footer-h {
+	margin: 0px;
+	padding-top: 10px;
+	color: white;
+	font-family: 'Roboto',sans-serif;
+}
