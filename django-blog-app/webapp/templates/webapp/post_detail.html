@@ -1,0 +1,25 @@
+{% extends 'webapp/base.html' %}
+
+{% block title %}  
+    <title> Try - Delete </title>
+{% endblock title %}
+
+{% block index %}
+    
+    <div class="container">      
+                
+        <div class="card-body">
+        <h2 >{{ object.title }}</h3>
+        <p >By : <a href="{% url 'user_post' object.author.username %}" >{{ object.author }}</a><br> On : {{ object.date_posted }}</p>
+        <p >{{ object.content }}</p>
+        <a type="button" href="/" class="btn btn-primary"> Home </a>
+        
+        {% if object.author == user %}            
+            <a type="button" href="/post/{{ post.id }}/update/" class="btn btn-success">Update</a>
+            <a type="button" class="btn btn-danger" href="/post/{{ post.id }}/delete/" >Delete</a>
+            
+        {% endif %}        
+
+    </div>
+
+{% endblock index %}

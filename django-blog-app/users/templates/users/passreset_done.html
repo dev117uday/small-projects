@@ -1,0 +1,26 @@
+{% extends 'webapp/base.html' %}
+{% load static %}
+
+
+{% block title %}  
+    <title>Reset Done</title>
+{% endblock title %}
+
+{% block index %}
+
+<div class="alert alert-info">
+    An email has been send to your registered email address.
+    Sign in Again when done.
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Password Reset Done</h2>
+            <a href="{% url 'Start_page' %}"><button type="button" class="btn btn-primary"> Home </button></a>             
+        </div>
+    </div>
+</div>
+
+{% endblock index %}

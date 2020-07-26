@@ -1,0 +1,25 @@
+{% extends 'webapp/base.html' %}
+{% load static %}
+
+
+{% block title %}  
+    <title>Complete</title>
+{% endblock title %}
+
+{% block index %}
+
+<div class="alert alert-info">
+    Password changes successfully, please login again
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Success</h2>
+            <a href="{% url 'login' %}"><button type="button" class="btn btn-primary"> Login </button></a>             
+        </div>
+    </div>
+</div>
+
+{% endblock index %}

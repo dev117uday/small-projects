@@ -1,0 +1,30 @@
+{% extends 'webapp/base.html' %}
+{% load static %}
+
+
+{% block title %} 
+    <title>delete ?</title>
+{% endblock title %}
+
+{% block stylesheet %}  
+    <link rel="stylesheet" href="{% static 'users/registerpage.css' %}">
+{% endblock stylesheet %}
+
+{% block index %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form class="form-signin" method="POST">       
+                {% csrf_token %}
+                <h2 class="form-signin-heading">Delete Post </h2>
+                <h3>Are you sure </h3>                
+                <button class="btn btn-danger" type="submit">Yes,delete</button>   
+                <a class="btn btn-outline secondary" href="/" type="submit">No</a>   
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock index %}

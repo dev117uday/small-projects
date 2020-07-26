@@ -1,0 +1,20 @@
+{% extends 'webapp/base.html' %}
+{% load static %}
+
+
+{% block title %}  
+    <title>Logged Out</title>
+{% endblock title %}
+
+{% block index %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>You have been logged Out.</h2>
+            <a href="{% url 'Start_page' %}"><button type="button" class="btn btn-primary"> Go Home </button></a>             
+        </div>
+    </div>
+</div>
+
+{% endblock index %}

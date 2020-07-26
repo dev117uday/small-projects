@@ -1,0 +1,60 @@
+{% extends 'webapp/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block title %}  
+    <title>Try - Profile</title>
+{% endblock title %}
+
+{% block stylesheet %}  
+    <link rel="stylesheet" href="{% static 'users/registerpage.css' %}">
+{% endblock stylesheet %}
+
+{% block index %}
+<br><br><br><br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+    <div class="card card-price">
+        
+        <div class="card-body">
+          <div class="card-caption">
+            <h2><font color="black"><center>{{ user.username }}</center></h2></font>
+          </div> 
+          <div class="lead"><center>{{ user.email }} </center></div>
+          <a href="{% url 'Start_page' %}" class="btn btn-primary btn-lg btn-block buy-now">
+            Go Home <span class="glyphicon glyphicon-triangle-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-6">
+        <form class="form-signin" method="POST" >       
+          {% csrf_token %}
+          <h2 class="form-signin-heading">Register</h2>
+          {{ u_form|crispy }}
+          {{ p_form|crispy }}
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Update</button>   
+          <small class="text-muted">
+            <br> Forgot Password ? <a class="ml-2" href="{% url 'password_reset' %}">Reset Password</a>
+         </small>
+        </form>
+      </div>
+    </div>
+    </div>
+</div>
+
+{% endblock index %}
+
+<form class="form-signin" method="POST">       
+  {% csrf_token %}
+  <h2 class="form-signin-heading">Register</h2>
+  {{ form|crispy }}
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>   
+  <div class="border-top pt-3">
+      <small class="text-muted">
+          <br>Already Have an account <a class="ml-2" href="{% url 'login' %}">Sign In</a>
+      </small>
+  </div>
+</form>
