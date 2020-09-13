@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>DSC ADGITM</title>
+  <link rel="shortcut icon" type="image/jpg" href="assets/dsc-logo.png" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <script src="./js/vue.js"></script>
+</head>
+
+<body>
+
+  <div id="box" class="unselectable">
+
+    <div class="navbar-fixed">
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container ">
+          <a class="brand-logo">
+            <img src="assets/dsc-adgitm-logo.png" id="nav-bar-logo">
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <br>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+
+          <div class="col s12 m6">
+            <div class="icon-block">
+              <img src="assets/community.jpg" alt="dsc adgitm" class="responsive-img">
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <br> <br>
+            <h3 class="center unselectable">{{ heading_one }}</h3>
+            <h5 class="light unselectable">{{ intro_body }}</h5>
+            <br>
+            <center>
+              <a v-bind:href="com_link"><button class="unselectable pure-material-button-contained"
+                  :disabled='com_link_false'>{{ first_button }}</button></a>
+            </center>
+            <br>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <br>
+      <center class="container">
+        <h4 class="apply-text unselectable"> {{ heading_two }} </h4>
+        <br>
+        <a target="_blank" v-bind:href="member_link"><button
+            class="pure-material-button-contained unselectable">{{ second_button }}</button></a>
+      </center>
+      <br>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+
+          <div class="col s12 m6">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+              <h5 class="center unselectable">{{ subheading_one }}</h5>
+
+              <p class="light unselectable">{{ para_one }}</p>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+              <h5 class="center unselectable">{{ subheading_two }}</h5>
+
+              <p class="light unselectable"> {{ para_two }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <br><br>
+    </div>
+
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <img class="responsive-img" src="./assets/DSC ADGITM Dark Vertical-Logo.png">
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <br>
+            <h5 class="white-text center">Follows us</h5>
+            <br>
+            <div class="col s3">
+              <a class="grey-text text-lighten-3" v-bind:href="github_link"><img src="./assets/icons/github-white.png" alt="github"
+                  class="sm-icon"></a>
+            </div>
+            <div class="col s3">
+              <a class="grey-text text-lighten-3" v-bind:href="linkedin_link"><img src="./assets/icons/linkedin.svg" alt="linkedin"
+                  class="sm-icon"></a>
+            </div>
+            <div class="col s3">
+              <a class="grey-text text-lighten-3" v-bind:href=twitter_link><img src="./assets/icons/twitter.png" alt="twitter"
+                  class="sm-icon"></a>
+            </div>
+            <div class="col s3">
+              <a class="grey-text text-lighten-3" v-bind:href="instagram_link"><img src="./assets/icons/instagram.png" alt="instagram"
+                  class="sm-icon"></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <center>
+            <p class="orange-text text-lighten-3"> &nbsp;&nbsp;&nbsp; DSC ADGITM</p>
+          </center>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--  Scripts-->
+  <script src="js/jquery.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="./app.js"></script>
+
+  <!--  Made by Athrav jairath and Uday Yadav  -->
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#nav-bar-logo {
+  width: 320px; 
+  height: 64px;
+}
+
+.banner {
+  width: 100vw; 
+  background: #0F9D58
+}
+
+.apply-text {
+  color : white
+}
+
+.b-footer {
+  width: 100vw;
+  height: 30px;
+  background: black;
+  margin-bottom: 0%;
+
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sm-icon {
+  width: 32px;
+  height: 32px;
+}
