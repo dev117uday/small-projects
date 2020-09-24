@@ -1,0 +1,31 @@
+{
+  "name": "backend-home-fill",
+  "version": "0.0.2",
+  "description": "Backend for home-fill project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev117uday/backend-home-fill.git"
+  },
+  "author": "Uday Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev117uday/backend-home-fill/issues"
+  },
+  "homepage": "https://github.com/dev117uday/backend-home-fill#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
